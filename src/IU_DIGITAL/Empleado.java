@@ -7,7 +7,7 @@ public class Empleado {
     private String puesto;
     private Departamento departamento;
 
-    // Metodo Constructor de la clase Empleado
+    // Metodo Constructor para inicializar los atributos de la clase Empleado
     public Empleado(String nombre, String id, String puesto) {
         this.nombre = nombre;
         this.id = id;
