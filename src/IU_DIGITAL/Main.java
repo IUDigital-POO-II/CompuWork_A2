@@ -22,6 +22,10 @@ public class Main {
             // Intento de asignar un empleado ya asignado (disparará excepción) Descomentar para probar
             //departamentoTI.agregarEmpleado(empleado1);  // Esto lanzará la excepción
 
+            // Listar empleados por departamento
+            departamentoTI.listarEmpleados();
+            departamentoRH.listarEmpleados();
+
         } catch (Exception e) {
             System.err.println(e.getMessage());
         }
