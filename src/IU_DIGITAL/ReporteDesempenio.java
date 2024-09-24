@@ -28,4 +28,13 @@ public class ReporteDesempenio {
         public void setEvaluacion(String evaluacion) {
             this.evaluacion = evaluacion;
         }
+
+        // Sobrescribir el método toString para mostrar la información del reporte
+        @Override
+        public String toString() {
+            return "Reporte de Desempenio{" +
+                    "Empleado=" + empleado.getNombre() +
+                    ", Evaluación='" + evaluacion + '\'' +
+                    '}';
+        }
 }
