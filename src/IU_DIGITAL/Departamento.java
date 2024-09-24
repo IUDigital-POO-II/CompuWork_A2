@@ -10,4 +10,13 @@ public class Departamento {
         this.nombre = nombre;
         this.empleados = new ArrayList<>();
     }
+
+    // metodo get and set
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
 }
