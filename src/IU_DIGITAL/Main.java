@@ -13,6 +13,11 @@ public class Main {
 
             // Creación de empleados temporales
             EmpleadoTemporal empleado3 = new EmpleadoTemporal("Carlos Ruiz", "E003", "Desarrollador Junior", 12);
+
+            // Asignación de empleados a departamentos (con manejo de excepciones)
+            departamentoTI.agregarEmpleado(empleado1);
+            departamentoTI.agregarEmpleado(empleado2);
+            departamentoRH.agregarEmpleado(empleado3)
         } catch (Exception e) {
             System.err.println(e.getMessage());
         }
