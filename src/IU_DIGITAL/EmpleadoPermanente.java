@@ -9,4 +9,15 @@ public class EmpleadoPermanente {
         super(nombre, id, puesto);
         this.salario = salario;
     }
+
+    // Getter y Setter para el atributo salario
+    public double getSalario() {
+        return salario;
+    }
+
+    public void setSalario(double salario) {
+        this.salario = salario;
+    }
+
+
 }
