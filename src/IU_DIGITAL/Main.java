@@ -34,9 +34,16 @@ public class Main {
             //Empleado empleadoInexistente = null;
             //ReporteDesempenio reporteInexistente = new ReporteDesempenio(empleadoInexistente, "Desempeño no disponible."); // Esto lanzará la excepción
 
-        } catch (Exception e) {
-            System.err.println(e.getMessage());
-        }
+            // Mostrar reportes de desempeño
+            System.out.println(reporte1);
+            System.out.println(reporte2);
 
+        } catch (EmpleadoYaAsignadoException e) {
+            System.err.println(e.getMessage());
+        } catch (ReporteNoGeneradoException e) {
+            System.err.println(e.getMessage());
+        } catch (Exception e) {
+            System.err.println("Error general: " + e.getMessage());
+        }
     }
 }
