@@ -1,0 +1,5 @@
+public class EmpleadoYaAsignadoException extends Exception {
+    public EmpleadoYaAsignadoException(String mensaje) {
+        super(mensaje);
+    }
+}
