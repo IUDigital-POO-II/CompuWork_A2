@@ -30,6 +30,10 @@ public class Main {
             ReporteDesempenio reporte1 = new ReporteDesempenio(empleado1, "Excelente desempeño en el último trimestre.");
             ReporteDesempenio reporte2 = new ReporteDesempenio(empleado3, "Buen desempeño, pero necesita mejorar en algunos aspectos.");
 
+            // Intento de crear un reporte con un empleado inexistente (disparará excepción) Descomentar para probar
+            //Empleado empleadoInexistente = null;
+            //ReporteDesempenio reporteInexistente = new ReporteDesempenio(empleadoInexistente, "Desempeño no disponible."); // Esto lanzará la excepción
+
         } catch (Exception e) {
             System.err.println(e.getMessage());
         }
