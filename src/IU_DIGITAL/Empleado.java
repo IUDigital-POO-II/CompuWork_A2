@@ -6,4 +6,15 @@ public class Empleado {
     private String id;
     private String puesto;
     private Departamento departamento;
+
+    // Metodo Constructor de la clase Empleado
+    public Empleado(String nombre, String id, String puesto) {
+        this.nombre = nombre;
+        this.id = id;
+        this.puesto = puesto;
+    }
+
+
+
+
 }
