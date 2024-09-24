@@ -37,4 +37,12 @@ public class Departamento {
         empleados.remove(empleado);
         empleado.setDepartamento(null);
     }
+
+    //metodo listar empleado
+    public void listarEmpleados() {
+        System.out.println("Empleados en el departamento " + nombre + ":");
+        for (Empleado empleado : empleados) {
+            System.out.println(empleado);
+        }
+    }
 }
