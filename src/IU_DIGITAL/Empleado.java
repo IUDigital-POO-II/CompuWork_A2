@@ -50,6 +50,16 @@ public class Empleado {
         this.departamento = departamento;
     }
 
+    // Metodo toString para mostrar los atributos de la clase Empleado
+    @Override
 
+    public String toString() {
+        return "Empleado{" +
+                "nombre='" + nombre + '\'' +
+                ", id='" + id + '\'' +
+                ", puesto='" + puesto + '\'' +
+                ", departamento=" + (departamento != null ? departamento.getNombre() : "No asignado") +
+                '}';
+    }
 
 }
