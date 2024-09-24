@@ -26,6 +26,10 @@ public class Main {
             departamentoTI.listarEmpleados();
             departamentoRH.listarEmpleados();
 
+            // Creación de reportes de desempeño (con manejo de excepciones)
+            ReporteDesempenio reporte1 = new ReporteDesempenio(empleado1, "Excelente desempeño en el último trimestre.");
+            ReporteDesempenio reporte2 = new ReporteDesempenio(empleado3, "Buen desempeño, pero necesita mejorar en algunos aspectos.");
+
         } catch (Exception e) {
             System.err.println(e.getMessage());
         }
