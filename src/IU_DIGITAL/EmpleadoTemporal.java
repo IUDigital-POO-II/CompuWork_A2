@@ -19,4 +19,11 @@ public class EmpleadoTemporal {
         this.duracionContratoMeses = duracionContratoMeses;
     }
 
+    // Metodo toString de la clase EmpleadoTemporal para incluir la duracion del contrato
+    @Override
+
+    public String toString() {
+        return super.toString() + ", Duración del contrato=" + duracionContratoMeses + " meses";
+    }
+
 }
