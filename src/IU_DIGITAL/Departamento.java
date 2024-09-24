@@ -28,4 +28,13 @@ public class Departamento {
         empleados.add(empleado);
         empleado.setDepartamento(this);
     }
+
+    //metodo eliminar empleado
+    public void eliminarEmpleado(Empleado empleado) throws Exception {
+        if (!empleados.contains(empleado)) {
+            throw new Exception("El empleado " + empleado.getNombre() + " no está asignado a este departamento.");
+        }
+        empleados.remove(empleado);
+        empleado.setDepartamento(null);
+    }
 }
