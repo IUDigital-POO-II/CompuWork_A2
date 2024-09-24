@@ -10,4 +10,13 @@ public class EmpleadoTemporal {
         this.duracionContratoMeses = duracionContratoMeses;
     }
 
+    // Getter y Setter de la clase EmpleadoTemporal
+    public int getDuracionContratoMeses() {
+        return duracionContratoMeses;
+    }
+
+    public void setDuracionContratoMeses(int duracionContratoMeses) {
+        this.duracionContratoMeses = duracionContratoMeses;
+    }
+
 }
