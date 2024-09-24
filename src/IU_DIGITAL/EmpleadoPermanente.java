@@ -19,5 +19,11 @@ public class EmpleadoPermanente {
         this.salario = salario;
     }
 
+    // Metodo toString para incluir el salario en la descripcion
+    @Override
+
+    public String toString() {
+        return super.toString() + ", Salario=" + salario;
+    }
 
 }
