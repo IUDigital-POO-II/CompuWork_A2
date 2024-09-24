@@ -14,6 +14,41 @@ public class Empleado {
         this.puesto = puesto;
     }
 
+    // Getters y Setters para obtener y modificar los atributos de la clase Empleado
+
+    // Getters
+    public String getNombre() {
+        return nombre;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public String getPuesto() {
+        return puesto;
+    }
+
+    public Departamento getDepartamento() {
+        return departamento;
+    }
+
+    // Setters
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setPuesto(String puesto) {
+        this.puesto = puesto;
+    }
+
+    public void setDepartamento(Departamento departamento) {
+        this.departamento = departamento;
+    }
 
 
 
