@@ -11,4 +11,21 @@ public class ReporteDesempenio {
         }
         this.empleado = empleado;
         this.evaluacion = evaluacion;
+
+        // Getters y Setters
+        public Empleado getEmpleado() {
+            return empleado;
+        }
+
+        public void setEmpleado(Empleado empleado) {
+            this.empleado = empleado;
+        }
+
+        public String getEvaluacion() {
+            return evaluacion;
+        }
+
+        public void setEvaluacion(String evaluacion) {
+            this.evaluacion = evaluacion;
+        }
 }
