@@ -17,7 +17,11 @@ public class Main {
             // Asignación de empleados a departamentos (con manejo de excepciones)
             departamentoTI.agregarEmpleado(empleado1);
             departamentoTI.agregarEmpleado(empleado2);
-            departamentoRH.agregarEmpleado(empleado3)
+            departamentoRH.agregarEmpleado(empleado3);
+
+            // Intento de asignar un empleado ya asignado (disparará excepción) Descomentar para probar
+            //departamentoTI.agregarEmpleado(empleado1);  // Esto lanzará la excepción
+
         } catch (Exception e) {
             System.err.println(e.getMessage());
         }
