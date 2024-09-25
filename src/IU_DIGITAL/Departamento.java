@@ -1,4 +1,5 @@
 package IU_DIGITAL;
+import java.util.ArrayList;
 
 public class Departamento {
     //atributos clase departamento

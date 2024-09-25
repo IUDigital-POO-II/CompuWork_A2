@@ -1,6 +1,6 @@
 package IU_DIGITAL;
 
-public class EmpleadoTemporal {
+public class EmpleadoTemporal extends Empleado{
     // Atributo privado duracionContratoMeses de la clase EmpleadoTemporal
     private int duracionContratoMeses;
 

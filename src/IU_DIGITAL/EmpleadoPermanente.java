@@ -1,6 +1,6 @@
 package IU_DIGITAL;
 
-public class EmpleadoPermanente {
+public class EmpleadoPermanente extends Empleado{
     // Atributo privado salario de la clase EmpleadoPermanente
     private double salario;
 
